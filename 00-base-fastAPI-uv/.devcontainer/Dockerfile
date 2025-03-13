@@ -9,7 +9,7 @@ COPY . /app
 
 # 安装依赖
 # RUN uv pip install --system fastapi uvicorn
-# RUN uv pip install --system --no-cache-dir -r requirements.txt
+RUN uv pip install --system --no-cache-dir -r requirements.txt
 
 # 暴露 8000 端口
 EXPOSE 8000
