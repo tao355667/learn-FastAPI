@@ -1,0 +1,5 @@
+# 忽略所有 __pycache__ 目录
+__pycache__/
+
+# 忽略所有 Python 编译缓存文件（*.pyc, *.pyo 等）
+*.py[cod]
